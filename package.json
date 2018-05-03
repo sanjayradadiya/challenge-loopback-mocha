@@ -1,0 +1,40 @@
+{
+  "name": "challenge-loopback-mocha",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "dotenv": "^5.0.1",
+    "helmet": "^3.10.0",
+    "loopback": "^3.19.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.0.0",
+    "loopback-connector-mongodb": "^3.4.3",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chai": "^4.1.2",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "mocha": "^5.1.1",
+    "nsp": "^2.1.0",
+    "nyc": "^11.7.1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "challenge-loopback-mocha"
+}
